@@ -8,7 +8,7 @@ function printBadges(EmployeeNames)
           console.log(`Wrapped ${EmployeeNames[i]} and added a bow!`);
       }
 }
-printBadges(EmployeeNames)
+printBadges(EmployeeNames);
 
 function printBadges(){
 
