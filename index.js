@@ -1,10 +1,15 @@
-// Code your solutions in this file
-EmployeeNames = ['roger', 'tita', 'billy'];
-function printBadges(EmployeeNames)
-{
+function printBadges(employees){
+    for(let i =0; i < employees.length; i++){
+        console.log(`Welcome ${employees[i]}! You are employee #${i+1}.`);
+    }
+    return employees;
+}
 
-  for (let i = 0; i < EmployeeNames.length; i++)
-  {
-          console.log(`Wrapped ${EmployeeNames[i]} and added a bow!`);
-      }
+function tailsNeverFails(){
+    // tails = ;
+    let nTails = 0;
+    while(Math.random() >= 0.5){
+        nTails++;
+    }
+    return `You got ${nTails} tails in a row!`;
 }
