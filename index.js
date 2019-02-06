@@ -1,6 +1,6 @@
 // Code your solutions in this file
 EmployeeNames = ['roger', 'tita', 'billy'];
-printBadges(EmployeeNames)
+function printBadges(EmployeeNames)
 {
 
   for (let i = 0; i < EmployeeNames.length; i++) {
