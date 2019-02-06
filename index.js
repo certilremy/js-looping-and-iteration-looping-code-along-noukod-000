@@ -9,5 +9,5 @@ function printBadges(EmployeeNames)
 }
 
 function printBadges(){
-  
+
 }
