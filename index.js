@@ -1,5 +1,5 @@
 // Code your solutions in this file
-EmployeeNames = ['roger', 'tita'. 'billy'];
+EmployeeNames = ['roger', 'tita', 'billy'];
 printBadges(EmployeeNames)
 {
 
