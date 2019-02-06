@@ -7,3 +7,7 @@ function printBadges(EmployeeNames)
           console.log(`Wrapped ${EmployeeNames[i]} and added a bow!`);
       }
 }
+
+function printBadges(){
+  
+}
